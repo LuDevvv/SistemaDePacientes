@@ -1,4 +1,4 @@
-# Sistema de Gestión de Pacientes
+# Sistema de Gestión de Pacientes 👨‍⚕️
 
 Este repositorio contiene el código fuente y la documentación de un Sistema de Gestión de Pacientes desarrollado en ASP.NET Core 6 MVC bajo la arquitectura Onion.
 
