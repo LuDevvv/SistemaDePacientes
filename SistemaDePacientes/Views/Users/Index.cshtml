@@ -1,0 +1,33 @@
+﻿@page
+@* @model List<UserViewModel> *@
+
+<h2>Mantenimiento de Usuarios</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
+            <th>Tipo de Usuario</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Nombre</td>
+                <td>@user.Apellido</td>
+                <td>@user.Correo</td>
+                <td>@user.TipoUsuario</td>
+                <td>
+                    <a href="/Usuarios/Edit/@user.Id">Editar</a> |
+                    <a href="/Usuarios/Delete/@user.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Usuarios/Create">Crear Nuevo Usuario</a>
