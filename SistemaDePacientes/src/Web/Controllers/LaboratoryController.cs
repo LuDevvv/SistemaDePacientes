@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace SistemaDePacientes.Controllers
+namespace SistemaDePacientes.src.Web.Controllers
 {
-    public class UsersController : Controller
+    public class LaboratoryController : Controller
     {
         public IActionResult Index()
         {

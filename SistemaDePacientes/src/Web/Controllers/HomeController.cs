@@ -2,7 +2,7 @@
 using SistemaDePacientes.Models;
 using System.Diagnostics;
 
-namespace SistemaDePacientes.Controllers
+namespace SistemaDePacientes.src.Web.Controllers
 {
     public class HomeController : Controller
     {
